@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.nav-wrapper{
+    display: flex;
+    width: 100%;
+}
+.nav-wrapper .nav-wrapper-left{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.nav-wrapper .nav-wrapper-left img{
+    width: 33.33%;
+}
+.nav-wrapper .nav-wrapper-right{
+    width: 50%;
+}
+.nav-wrapper .nav-wrapper-right ul{
+    display: flex;    
+    list-style-type: none;
+    float: right;
+}
+
+.nav-wrapper .nav-wrapper-right ul li a{
+    text-decoration: none;
+    padding-inline: 25px;
+}
