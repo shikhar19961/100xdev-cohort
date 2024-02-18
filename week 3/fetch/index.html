@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        <button onclick="getNames()">Get Name</button>
+    </body>
+    <script>
+       async function getNames(){
+            const response = await fetch("https://fakerapi.it/api/v1/persons");
+            const jsonData = await response.json();
+            console.log(jsonData);
+        }
+    </script>
+</html>
